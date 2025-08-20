@@ -1,0 +1,93 @@
+.background{
+    background-color: rgb(217, 217, 199);
+}
+
+h2 {
+    color: rgb(34, 16, 4);
+    font-family:Impact;
+}
+
+h3 {
+    color: rgb(34, 16, 4);
+    font-family:Impact;
+
+}
+
+h4{
+    color: rgb(34, 16, 4);
+    font-family:Impact;
+}
+
+
+#Aleah {
+    font-weight:bolder;
+    text-align: center;
+    font-family:Impact;
+    color: rgb(34, 16, 4);
+    font-size: 50px;
+    
+}
+
+p {
+    font-family:'Courier New';
+}
+
+
+ol{
+    color: rgb(34, 16, 4);
+    font-family:'Courier New';
+}
+
+ul{
+    color: rgb(34, 16, 4);
+    font-family:'Courier New';
+}
+
+
+table{
+    border-color:rgb(56, 48, 42);
+    font-family:'Courier New';
+    border-style:ridge;
+    border-radius: .5cm;
+    padding-bottom: 0.5%;
+}
+
+#caption{
+    padding-top: 10%;
+}
+
+.nav ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: rgb(56, 48, 42);
+top: 0;
+width: 100%;
+align-content: center;
+}
+
+.nav li {
+float: left;
+}
+
+.nav li a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 18px;
+text-decoration: none;
+}
+
+.nav li a:hover {
+background-color: #111;
+}
+
+.container {
+        display: flex;
+        align-items: center; 
+        justify-content: space-around; 
+    }
+
+@media screen and (max-width: 600px) {
+}

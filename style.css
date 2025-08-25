@@ -83,6 +83,12 @@ text-decoration: none;
 background-color: #111;
 }
 
+.list{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
 .container {
         display: flex;
         align-items: center; 

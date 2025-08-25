@@ -96,7 +96,21 @@ background-color: #111;
 }
 
 @media screen and (max-width: 600px) {
-}
-.background{
-    margin: 5%;
+    .container {
+        flex-direction: column;
+    }   
+    
+
+    .background{
+        margin: 5%;
+    }
+    .nav .ul {
+        flex-direction: column;
+    }
+    .nav .li {
+        float: none;
+    }
+    .nav .li .a {
+        text-align: left;
+    }
 }
